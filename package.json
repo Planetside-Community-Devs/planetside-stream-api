@@ -1,0 +1,27 @@
+{
+  "name": "planetside-stream-api",
+  "version": "1.0.0",
+  "description": "Streaming API Access for the Planetside2 API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit",
+    "lint": "eslint ./lib/**"
+  },
+  "keywords": [
+    "Planetside2",
+    "WS"
+  ],
+  "author": "Laurelianae <eleriane@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "ws": "^5.1.1"
+  },
+  "publishConfig": {
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "eslint": "^4.19.1",
+    "mocha": "^5.1.1"
+  }
+}
