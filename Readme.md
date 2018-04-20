@@ -36,6 +36,9 @@ npm install
 npm test
 ```
 
+For additional information of the library on runtime use
+the [debug](https://github.com/visionmedia/debug) scope `planetside-stream-api`
+
 ### And coding style tests
 
 We are using ESLint to check the library code for style issues.
@@ -49,6 +52,7 @@ npm run lint
 ## Built With
 
 * [WS](https://github.com/websockets/ws) - Used to connect to the websocket api - MIT Licensed
+* [debug](https://github.com/visionmedia/debug) - Used to debug the library - MIT Licensed
 
 
 ## Authors
