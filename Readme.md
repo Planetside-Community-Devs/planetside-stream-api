@@ -1,5 +1,10 @@
 # Planetside 2 Stream API Wrapper
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+![GitHub issues](https://img.shields.io/github/issues/Planetside-Community-Devs/planetside-stream-api.svg?style=flat-square)
+![npm](https://img.shields.io/npm/v/planetside-stream-api.svg?style=flat-square)
+
+
 An API wrapper to access events of the game Planetside2
 
 ## Getting Started
