@@ -53,7 +53,7 @@ npm run lint
 
 ## Authors
 
-* **Sounofdarkness (Laura Schäfer)** - *Currently Everything* - [Soundofdarkness](https://github.com/Sounfdarkness)
+* **Soundofdarkness (Laura Schäfer)** - *Currently Everything* - [Soundofdarkness](https://github.com/Sounfdarkness)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
