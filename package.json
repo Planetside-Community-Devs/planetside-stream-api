@@ -23,7 +23,7 @@
     "mocha": "^5.1.1"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/Planetside-Community-Devs/planetside-stream-api.git"
+    "type": "git",
+    "url": "https://github.com/Planetside-Community-Devs/planetside-stream-api.git"
   }
 }
