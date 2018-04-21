@@ -20,6 +20,28 @@ var api = new PlanetsideWrapper(constants.SERVERS.PC);
 var api = new PlanetsideWrapper(constants.SERVERS.PC, "example");
 ```
 
+Now you need to subscribe to some events:
+```js
+api.on("open", () => {
+    console.log("Connected to Census!");
+    api.subscribe(["13"], ["FacilityControl"]);
+});
+```
+
+And then you can access all events as part of nodes `events` module:
+```js
+api.on("FacilityControl", data => {
+    console.log(data);
+});
+```
+
+If you want to unsubscribe again: 
+```js
+api.unsubscribe(["13"], ["FacilityControl"]);
+// Or unsubscribe from everything
+api.unsubscribeAll()
+```
+
 ### Installing
 
 Im just going to assume you use npm to install this library
